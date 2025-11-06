@@ -1,68 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PeacockAway – Smart Farm Protector</title>
-  <style>
-    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
-    header { background: #006400; color: #fff; padding: 20px 0; text-align: center; }
-    nav { background: #004d00; color: #fff; padding: 10px; text-align: center; }
-    nav a { color: #fff; margin: 0 15px; text-decoration: none; }
-    section { padding: 20px; margin: 0 auto; max-width: 800px; background: #fff; margin-top: 20px; }
-    h2 { color: #006400; }
-    footer { background: #002f00; color: #fff; text-align: center; padding: 15px 0; margin-top: 40px; }
-  </style>
-</head>
-<body>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background: linear-gradient(135deg, #000000 0%, #6a0d91 50%, #ff4fc3 100%);
+    /* Black → Dark Purple → Neon Pink */
+    background-attachment: fixed;
+  }
 
-<header>
-  <h1>PeacockAway – Smart Field Protector</h1>
-  <p>Humane, Solar-Powered Solution to Prevent Peacocks From Damaging Crops</p>
-</header>
+  header {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0px 0px 10px #ffb7ff;
+  }
 
-<nav>
-  <a href="#about">About Project</a>
-  <a href="#components">Components Needed</a>
-  <a href="#advantages">Advantages for Farmers</a>
-</nav>
+  nav {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(4px);
+  }
 
-<section id="about">
-  <h2>About the Project</h2>
-  <p>In many farming regions, peacocks enter crop fields during night and cause serious damage by eating young plants and trampling soil. Farmers lose both yield and time in guarding the fields. The <strong>PeacockAway</strong> system uses motion-activated sensors, flashing lights and sound, combined with solar power, to gently but effectively deter peacocks without harm. It’s safe for livestock and humans, affordable for small farms, and easy to install.</p>
-</section>
+  nav a {
+    color: #ffb7ff;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
 
-<section id="components">
-  <h2>Components Needed</h2>
-  <ul>
-    <li>Arduino UNO R3 board</li>
-    <li>PIR Motion Sensor (mounted at ~70 cm height)</li>
-    <li>Solar Panel (10 W or more) + Rechargeable Battery</li>
-    <li>Motion-activated controller (Arduino code)</li>
-    <li>High-power LED or strobe light unit</li>
-    <li>Sound module + Speaker (plays randomized alarm or predator calls)</li>
-    <li>Mounting pole and weather-proof enclosure</li>
-    <li>Reflective tapes and spinning panels for passive deterrence</li>
-    <li>Manual ON/OFF switch for farmer access</li>
-  </ul>
-</section>
+  nav a:hover {
+    color: #ffffff;
+    text-shadow: 0px 0px 8px #ff9cff;
+  }
 
-<section id="advantages">
-  <h2>Advantages for Farmers</h2>
-  <p>With PeacockAway:</p>
-  <ul>
-    <li>Crop damage from peacocks is significantly reduced.</li>
-    <li>No lethal methods required — ethically and legally compliant.</li>
-    <li>Less labour required for night-watching or guarding fields.</li>
-    <li>Solar power means minimal running cost once installed.</li>
-    <li>Simple components make maintenance easy for rural settings.</li>
-    <li>Improved yield and better crop survival = higher incomes for farmers.</li>
-  </ul>
-</section>
+  section {
+    max-width: 850px;
+    margin: 25px auto;
+    padding: 25px;
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 100, 255, 0.3);
+    backdrop-filter: blur(5px);
+  }
 
-<footer>
-  <p>&copy; 2025 PeacockAway – Developed by [Green Mind Engineers] | All Rights Reserved</p>
-</footer>
+  h2 {
+    color: #ffb7ff;
+    text-shadow: 0px 0px 8px #ff48e0;
+  }
 
-</body>
-</html>
+  footer {
+    text-align: center;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.4);
+    color: #ffb7ff;
+    margin-top: 40px;
+    font-size: 14px;
+    backdrop-filter: blur(4px);
+  }
+</style>
